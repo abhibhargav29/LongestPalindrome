@@ -1,3 +1,6 @@
+#Function to return the length if we expand around a particular center
+#if the second two args are same while calling the center is the letter and if they are different different, then center is between the letters
+
 def aroundCenter(s, L, R):
     right= R
     left = L
