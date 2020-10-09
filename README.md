@@ -1,6 +1,10 @@
-# LongestPalindrome
-This program takes in a string and return its longest palindromic substring.
+# MNIST DIMENSIONALITY REDUCTION
 
-The given file uses explanding around centre. We traverse through each letter in string and consider it the center of a palindrome string, Simultaneously, we consider the space between this and nexr letter to be center and whichever gives a longer palindrome we store it. Then we compare this with existing palindrome and find the bigger one. Then at last return it.
+This ipython notebook does a dimensionality reduction for the mnist dataset using PCA and t-SNE. The data is of various images of handwritten 
+digits(stored in form of pixels) and the class label is the actual digit that it represents(0-9). We need to do redution for visulizaion of these digits.
+The original data has 784 features or pixels and we convert them into just two dimensions for easy visualization.
 
-example: In "abba" the center of palindrome is between the two b, "ab|ba".
+PCA has been implemented from sklearn.decomposition module and also by ourselves after calculating covariance matrix and eigen vectors.
+t-SNE has been implemented from sklearn.manifold.
+
+The data is taken from kaggle. It could not be uploaded due to its large size.
