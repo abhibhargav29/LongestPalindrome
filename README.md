@@ -8,3 +8,4 @@ PCA has been implemented from sklearn.decomposition module and also by ourselves
 t-SNE has been implemented from sklearn.manifold.
 
 The data is taken from kaggle. It could not be uploaded due to its large size.
+Link - https://www.kaggle.com/c/digit-recognizer
