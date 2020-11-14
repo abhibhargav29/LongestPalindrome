@@ -1,4 +1,4 @@
-# MNIST DIMENSIONALITY REDUCTION
+# MNIST Dimensionality Reduction
 
 This ipython notebook does a dimensionality reduction for the mnist dataset using PCA and t-SNE. The data is of various images of handwritten 
 digits(stored in form of pixels) and the class label is the actual digit that it represents(0-9). We need to do redution for visulizaion of these digits.
