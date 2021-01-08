@@ -11,5 +11,5 @@ PCA has been implemented from sklearn.decomposition module and also by ourselves
 sklearn.manifold.
 </p>
 
-The data is taken from kaggle. It could not be uploaded due to its large size.
+The data is taken from kaggle. It could not be uploaded due to its large size.<br>
 Link - https://www.kaggle.com/c/digit-recognizer
